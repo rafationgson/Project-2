@@ -47,5 +47,5 @@ Test Predictions:
 |--------------------------|--------------------|-------------------|
 | Random Forest Regression | 1881.9226765799258 | 0.771499570972989 |
 
-Findings:
+## Findings:
 Based on the Random Forest model, the rating count, price, retail price, and merchant rating of products had a high importance in predicting how many units sold. The units sold of the dataset had a fairly wide distribution and a standard deviation of 9356.539302, and so the model reflects that, but it has a MAE that still fits the range of the units sold.
