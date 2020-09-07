@@ -41,9 +41,9 @@ Cross Validation Results:
 
 The Random Forest model had the lowest MAE, and so this model was fine tuned using the GridSearchCV.
 Test Predictions:
-Random Forest Regression
-MAE = 1881.9226765799258
-Accuracy = 0.771499570972989
+1. Random Forest Regression
+ a. MAE = 1881.9226765799258
+ b. Accuracy = 0.771499570972989
 
 Findings:
 Based on the Random Forest model, the rating count, price, retail price, and merchant rating of products had a high importance in predicting how many units sold. The units sold of the dataset had a fairly wide distribution and a standard deviation of 9356.539302, and so the model reflects that, but it has a MAE that still fits the range of the units sold.
