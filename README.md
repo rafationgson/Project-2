@@ -32,18 +32,20 @@ Models used:
 The first three models were chosen because they are regularized linear regression models, and this dataset had many sparse values. Aside from linear regression, I wanted to test ensemble decision tree models, and so I chose the Random Forest and Gradient Boost models.
 
 The measure used to evaluate the cross validation was the MAE.
-Cross Validation Results:
-1. Ridge regression = -2130.9549599128954
-2. Lasso Regression = -2159.132268148492
-3. Elastic Net Regression = -2045.5793052265071
-4. Random Forest Regression = -1740.6853139393559
-5. Gradient Boosted Regression = -1782.4896156465913
+Results:
+| Model                       | Cross Val Score     |
+|-----------------------------|---------------------|
+| Ridge regression            | -2130.9549599128954 |
+| Lasso Regression            | -2159.132268148492. |
+| Elastic Net Regression      | -2045.5793052265071 |
+| Random Forest Regression    | -1740.6853139393559 |
+| Gradient Boosted Regression | -1782.4896156465913 |
 
 The Random Forest model had the lowest MAE, and so this model was fine tuned using the GridSearchCV.
 Test Predictions:
-1. Random Forest Regression
- a. MAE = 1881.9226765799258
- b. Accuracy = 0.771499570972989
+| Model                    | MAE                | Accuracy          |
+|--------------------------|--------------------|-------------------|
+| Random Forest Regression | 1881.9226765799258 | 0.771499570972989 |
 
 Findings:
 Based on the Random Forest model, the rating count, price, retail price, and merchant rating of products had a high importance in predicting how many units sold. The units sold of the dataset had a fairly wide distribution and a standard deviation of 9356.539302, and so the model reflects that, but it has a MAE that still fits the range of the units sold.
