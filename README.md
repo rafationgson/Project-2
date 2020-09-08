@@ -14,7 +14,7 @@ Libraries used: Numpy, Matplotlib, Seaborn, Pandas, Scikit Learn
 
 ## Data Exploration:
 This list below contains some of the most relevant insights.
-1. Average Rating did not a have strong correlation with units sold because there were items with a rating of 3 that outperformed items with a rating of 5 which is the highest.
+1. Average Rating did not a have a very strong correlation with units sold because there were items with a rating of 3 to 4 that outperformed items with a rating of 5 which is the highest. But looking at the distribution of rating values, majority of the products are within the range of 3 to 4 and very few have a rating of 5, and so this would explain why.
 2. The uses of ad boosts did not significantly increase the units sold.
 3. The top items sold were skirts, tops, and swimwear.
 4. The top item colors sold were orange, multicolor, 'others' which consisted of various prints.
