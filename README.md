@@ -15,9 +15,10 @@ Libraries used: Numpy, Matplotlib, Seaborn, Pandas, Scikit Learn
 ## Data Exploration:
 This list below contains some of the most relevant insights.
 1. Average Rating had a positive correlation with units sold because of the upward trend of units sold and rating, but there was a stronger correlation with the number of ratings as compared to the actual rating with regards to number of the units sold.
-2. The uses of ad boosts did not significantly increase the units sold.
-3. The top items sold were skirts, tops, and swimwear.
-4. The top item colors sold were orange, multicolor, 'others' which consisted of various prints.
+2. There was no significant difference in units sold for items that were on sale vs. items that were not on sale.
+3. The uses of ad boosts did not significantly increase the units sold.
+4. The top items sold were skirts, tops, and swimwear.
+5. The top item colors sold were orange, multicolor, 'others' which consisted of various prints.
 
 ## Model building:
 I split the data into 80% for training the model and 20% for testing the model, and I used regression algorithms to predict the units sold.
