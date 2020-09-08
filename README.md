@@ -14,7 +14,7 @@ Libraries used: Numpy, Matplotlib, Seaborn, Pandas, Scikit Learn
 
 ## Data Exploration:
 This list below contains some of the most relevant insights.
-1. Average Rating did not a have a very strong correlation with units sold because there were items with a rating of 3 to 4 that outperformed items with a rating of 5 which is the highest. But looking at the distribution of rating values, majority of the products are within the range of 3 to 4 and very few have a rating of 5, and so this would explain why.
+1. Average Rating had a positive correlation with units sold because of the upward trend of units sold and rating, but there was a stronger correlation with the number of ratings as compared to the actual rating with regards to number of the units sold.
 2. The uses of ad boosts did not significantly increase the units sold.
 3. The top items sold were skirts, tops, and swimwear.
 4. The top item colors sold were orange, multicolor, 'others' which consisted of various prints.
@@ -48,4 +48,4 @@ Test Predictions:
 | Random Forest Regression | 1881.9226765799258 | 0.771499570972989 |
 
 ## Findings:
-Based on the Random Forest model, the rating count, price, retail price, and merchant rating of products had a high importance in predicting how many units sold. The units sold of the dataset had a fairly wide distribution and a standard deviation of 9356.539302, and so the model reflects that, but it has a MAE that still fits the range of the units sold.
+Based on the Random Forest model, the rating count, price, retail price, average merchant rating, the rating count of the merchant, and average rating of products had a high importance in predicting how many units sold. The units sold of the dataset had a fairly wide distribution and a standard deviation of 9356.539302, and so the model reflects that, but it has a MAE that still fits the range of the units sold.
